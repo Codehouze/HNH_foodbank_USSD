@@ -61,8 +61,8 @@ TWILIO_PHONE_NUMBER=your-twilio-phone-number
 
 ### DynamoDB Tables
 Create two DynamoDB tables:
-1. **User Table**: To store users.
-   - Primary Key: `userId` (String)
+1. **Requests Table**: To store user requests.
+   - Primary Key: `requestId` (String)
 2. **Inventory Table**: To store food inventory.
    - Primary Key: `itemId` (String)
 
@@ -108,4 +108,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Thank you for using the USSD Food bank Application. We hope this application helps in efficiently managing food bank services and reaching those in need. If you have any questions or need further assistance, please feel free to open an issue or contact the project maintainers.
+Thank you for using the USSD Foodbank Application. We hope this application helps in efficiently managing food bank services and reaching those in need. If you have any questions or need further assistance, please feel free to open an issue or contact the project maintainers.
